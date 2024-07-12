@@ -1,0 +1,74 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 43px;
+}
+.imgcontainer{
+    width:40%;
+    text-align: end;
+}
+.paracontainer{
+    border-radius: 12px;
+    width: 40%; 
+    height: 630px; 
+    background-color: rgb(251, 242, 229);
+}
+.paracontainer h1{
+    color: rgb(187, 120, 5);
+    font-weight: 1000;
+    font-size: 40px;
+    padding-top: 110px;
+}
+.form,.login,.ordiv{
+    padding-top: 50px;
+}
+input{
+    padding: 4px 60px;
+}
+.imgcontainer img{
+    width:500px;
+    border-radius: 10px;
+}
+.login button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(187, 120, 5);
+    border-style: none;
+    color: white;
+}
+label{
+    padding-right: 230px;
+}
+.mail{
+    padding-right: 250px;
+}
+.ordiv{
+    padding-top: 40px;
+}
+.buttondiv{
+    padding: 13px 5px;
+}
+.buttondiv button{
+    padding: 5px 20px;
+    background-color: none;
+    background-color: rgb(251, 242, 229);
+    border: none;
+}
+.absolutediv{
+    position: absolute;
+    width:25%;
+    margin-right: 470px;
+    margin-bottom: 300px;
+}
+.absolutediv h1{
+    font-weight: 800;
+}
+
+
